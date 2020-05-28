@@ -1,0 +1,15 @@
+publisher: vmware
+apiVersion: v2
+name: stackstorm-vscode
+version: 1.3.0
+type: VS Code extension
+displayName: stackstorm-vscode
+title: stackstorm-vscode
+description: stackstorm extension for che
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+repository: https://github.com/sharmahr/stackstorm-vscode
+category: Other
+firstPublicationDate: '2019-03-08'
+spec:
+  extensions:
+    - https://raw.githubusercontent.com/sharmahr/stackstorm-vscode/master/downloads/stackstorm-vscode-1.3.0.vsix
